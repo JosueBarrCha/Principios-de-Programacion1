@@ -1,0 +1,15 @@
+print(f"Bienvenido, {nombre}.Los requisitos para poder renovar su licencia de conducir son los siguientes:")
+print("-Documento de identificacion al dia")
+print("-Dictamen medico vigente")
+print("-Multas de transito pagas")
+print("-Menos de 12 puntos acumulados por infracciones de transito.")
+print("Por favor digite cuidadosamente los siguientes datos para poder determinar su elegibilidad de renovacion de licencia:")
+
+elegibilidad=str(input("Se encuentra su documento de identidad al dia?"))
+if elegibilidad =="si":
+    print("Su cedula esta al dia. Proceda con el siguiente paso.")
+else:
+    print("Su cedula no se encuentra al dia. Usted NO puede renovar la licencia de conducir.")
+
+    
+    
